@@ -1,0 +1,48 @@
+.stRadio [role=radiogroup]{
+    align-items: center;
+    justify-content: center;
+}
+
+.stButton>button {
+    display: block;
+    margin: 0 auto;
+}
+div.stButton > button:hover,pressed,focus {
+    color:#0099ff;
+    border-color:#0099ff;
+    }
+    div.stButton > button:active{
+    color:white;
+    background-color:#0099ff;
+    border-color:#0099ff;
+    }
+    
+
+.stSpinner > div{
+    transform-origin: center !important;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+[data-testid="metric-container"] {
+    width: fit-content;
+    margin: auto;
+}
+
+[data-testid="metric-container"] > div {
+    width: fit-content;
+    margin: auto;
+}
+
+[data-testid="metric-container"] label {
+    width: fit-content;
+    margin: auto;
+}
+    
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
