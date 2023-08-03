@@ -115,7 +115,6 @@ class SpeechToTextApp:
                 if st.button("Summarize"):
                     summarizer = TextSummarizer(translated_line_edit)
                     summary = summarizer.summarize_text()
-                    st.header("Summary:")
                     st.write(summary)
 
             with tab7:
