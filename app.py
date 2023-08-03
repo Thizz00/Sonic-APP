@@ -3,13 +3,13 @@ import nltk
 from pathlib import Path
 import matplotlib.pyplot as plt
 from deep_translator import GoogleTranslator
-from text_analyzer import TextAnalyzer, ChartDrawer
-from sentiment_analysis import SentimentAnalysis
-from text_summarizer import TextSummarizer
-from word_cloud_generator import WordCloudGenerator
-from word_processor import WordProcessor
-from speech_converter import SpeechConverter
-from speech_recognition_google import SpeechRecognizer
+from features.text_analyzer import TextAnalyzer, ChartDrawer
+from features.sentiment_analysis import SentimentAnalysis
+from features.text_summarizer import TextSummarizer
+from features.word_cloud_generator import WordCloudGenerator
+from features.word_processor import WordProcessor
+from features.speech_converter import SpeechConverter
+from features.speech_recognition_google import SpeechRecognizer
 
 nltk.download('stopwords')
 

@@ -1,5 +1,5 @@
 from wordcloud import WordCloud
-from word_processor import WordProcessor
+from features.word_processor import WordProcessor
 
 class WordCloudGenerator:
     """
