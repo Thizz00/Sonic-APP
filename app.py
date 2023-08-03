@@ -11,7 +11,7 @@ from features.word_processor import WordProcessor
 from features.speech_converter import SpeechConverter
 from features.speech_recognition_google import SpeechRecognizer
 
-nltk.download('stopwords')
+
 
 
 class SpeechToTextApp:
