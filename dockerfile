@@ -10,4 +10,4 @@ RUN [ "python", "-c", "import nltk; nltk.download('all')" ]
 
 COPY . /Sonic-APP
 
-CMD ["streamlit", "run", "app.py"]
+CMD ["streamlit", "run", "main.py"]
