@@ -17,7 +17,7 @@ Run docker build:
 
 ## Run the main script
 
-Run `docker run -it -p 8501:8501 sonicapp` to run `app.py` in Streamlit.
+Run `docker run -it -p 8501:8501 sonicapp` to run `main.py` in Streamlit.
 
 then open [localhost:8501/?name=main](http://localhost:8501/?name=main) in your browser. 
 
