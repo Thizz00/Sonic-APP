@@ -149,7 +149,3 @@ class SpeechToTextApp:
                     self.line_edit = recognizer.recognize_speech_google()
                     self.layouts(self.line_edit)
 
-
-if __name__ == "__main__":
-    app = SpeechToTextApp()
-    app.main()
